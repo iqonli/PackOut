@@ -278,6 +278,7 @@ string getParentDirectory(const string& path)
 
 int main(int argc, char* argv[])
 {
+	SetConsoleTitle("PackOut 拆包 v1.0");
 	string sourceDir, targetDir;
 	int overwriteOption = -1; // 初始化为-1表示未设置
 	int autoDelOption = -1;   // 初始化为-1表示未设置
@@ -339,7 +340,7 @@ int main(int argc, char* argv[])
 	{
 st1:
 		_color(10);
-		cout << "PackOut 拆包\nby IQ Online Studio, github.com/iqonli\n";
+		cout << "PackOut 拆包 v1.0\nby IQ Online Studio, github.com/iqonli\n";
 		_color();
 		cout << "轻松拆散指定文件夹\n";
 		cout << "输入要拆包的文件夹路径, 输入英文字符:打开设置\n";
